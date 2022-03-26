@@ -2,12 +2,8 @@
   align-items: center;
   color: #FFFFFF;
   display: grid;
-  font-family: 'Noto Sans Light', 'Noto Sans Arabic Light',
-    'Noto Sans CJK KR Light',
-    'Noto Sans Devanagari Light',
-    'Noto Sans Gujarati Light', 'Noto Sans Gurmukhi Light',
-    'Noto Sans Hebrew Light';
-  font-weight: 300;
+  font-family: 'Futura';
+  font-weight: 400;
   grid-template: 85vh 10vh / 100px auto 100px;
   justify-items: center;
 }
@@ -76,8 +72,10 @@ body[dir=rtl] .breaks > :nth-child(2) > a img {
 
 #progress-time {
   display: block;
-  font-size: 15px;
+  font-size: 20px;
   padding-top: 20px;
+  font-family: 'Futura';
+  font-weight: 500;
 }
 
 .ffffff .breaks {
